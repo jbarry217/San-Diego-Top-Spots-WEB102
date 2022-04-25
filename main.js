@@ -10,7 +10,7 @@ $(document).ready(function() {
         topSpotsData += '<tr>';
         topSpotsData += '<td>' +value.name+'</td>';
         topSpotsData += '<td>' +value.description+'</td>';
-        topSpotsData += '<td> <a href="https://www.google.com/maps?q=' +value.location+ '">' + "open in google maps" + '</a> </td>';
+        topSpotsData += '<td> <a href="https://www.google.com/maps?q=' +value.location+ '>' + "<button>View Location</button>" + '</a> </td>';
         topSpotsData += '</tr>';
     });
     $('#top-spots-table').append(topSpotsData);
